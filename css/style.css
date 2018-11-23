@@ -51,3 +51,9 @@ h5 {
   border-top: 3px solid #fff;
   width: 80px;
 }
+
+/* PLACES SECTION */
+
+.section__places {
+  margin: 0 1.3rem;
+}
