@@ -15,20 +15,20 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: rgb(91, 146, 207) !important;
+  background-color: rgba(91, 146, 207, 0.8) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
+  background: rgba(91, 146, 207, 0.8) !important;
 }
 
 .nav-item {
     padding: 0 1rem;
 }
 
-@media (max-width: 40rem) {
+@media (min-width: 40rem) {
   .navbar:not(.top-nav-collapse) {
-    background: rgb(91, 146, 207) !important;
+    background: transparent !important;
   }
 }
 
