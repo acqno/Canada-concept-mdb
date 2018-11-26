@@ -40,7 +40,7 @@ header,
 }
 
 h1 {
-  letter-spacing: 8px;
+  letter-spacing: 0.5rem;
 }
 
 h5 {
@@ -56,4 +56,13 @@ h5 {
 
 .section__places {
   margin: 0 1.3rem;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 35rem;
+}
+
+@media (min-width: 40rem) {
+  max-width: 100%;
 }
