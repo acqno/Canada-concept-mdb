@@ -57,8 +57,15 @@ h5 {
 .section__places {
   margin: 0 2rem;
   padding: 2.2rem 0;
-  border-top: solid black 1.5px;
-  border-bottom: solid black 1.5px;
+}
+
+.page-seperator:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 50%; /* Change this to whatever width you want. */
+    padding-top: 5rem; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid black; 
 }
 
 .img-fluid {
