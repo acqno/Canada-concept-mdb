@@ -15,11 +15,11 @@ header,
 }
 
 .top-nav-collapse {
-  background-color: rgba(91, 146, 207, 0.8) !important;
+  background-color: rgba(91, 146, 207, 0.9) !important;
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: rgba(91, 146, 207, 0.8) !important;
+  background: rgba(91, 146, 207, 0.9) !important;
 }
 
 .nav-item {
@@ -55,7 +55,10 @@ h5 {
 /* PLACES SECTION */
 
 .section__places {
-  margin: 0 1.3rem;
+  margin: 0 2rem;
+  padding: 2.2rem 0;
+  border-top: solid black 1.5px;
+  border-bottom: solid black 1.5px;
 }
 
 .img-fluid {
