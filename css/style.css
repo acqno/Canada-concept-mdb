@@ -76,3 +76,21 @@ h5 {
 @media (min-width: 40rem) {
   max-width: 100%;
 }
+
+/* FOOTER SECTION */
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer-author {
+  font-size: 0.8rem;
+}
+
+.fa-tree {
+  margin: 1rem;
+}
+
