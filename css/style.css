@@ -54,9 +54,9 @@ h5 {
 
 /* PLACES SECTION */
 
-.section__places {
-  margin: 0 2rem;
-  padding: 2.2rem 0;
+.section__places, .section__culture {
+  margin: 0 1rem;
+  padding: 2rem 0;
 }
 
 .page-seperator:after {
@@ -80,6 +80,7 @@ h5 {
 /* FOOTER SECTION */
 
 .footer-copyright {
+  background-color: rgba(91, 146, 207, 0.9);
   display: flex;
   flex-direction: column;
   align-content: center;
